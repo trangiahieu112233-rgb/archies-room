@@ -3,43 +3,68 @@
 <head>
 <title>Archie's Room</title>
 <style>
-body{
-  font-family: Arial;
-  background:white;
-  width:700px;
-  margin:auto;
+/* 90s blog vibe */
+body {
+  font-family: 'Courier New', monospace;
+  background-color: #fdf6e3; /* light beige */
+  color: #000000;
+  width: 700px;
+  margin: auto;
+  padding: 20px;
 }
 
-h1{
-  text-align:center;
-  color:#3366cc;
+h1 {
+  text-align: center;
+  color: #3366cc;
+  text-decoration: underline;
 }
 
-.entry{
-  border-bottom:1px solid gray;
-  padding:10px;
+.entry {
+  border: 2px dashed #999999;
+  background-color: #fffefa;
+  padding: 15px;
+  margin-bottom: 20px;
 }
 
-.date{
-  font-size:12px;
-  color:gray;
+.date {
+  font-size: 12px;
+  color: gray;
+}
+
+a {
+  color: #0000ee;
+  text-decoration: underline;
+}
+
+/* Add little pixel decorations */
+.icon {
+  width: 20px;
+  vertical-align: middle;
+  margin-right: 5px;
 }
 </style>
 </head>
 
 <body>
 
-<h1>Welcome to My Room</h1>
+<h1>Archie's Room</h1>
 
 <div class="entry">
 <div class="date">March 9</div>
-<p>Today was a long day. I went home from school and slept instantly.</p>
+<p><img class="icon" src="https://i.imgur.com/6b4pZcL.png" alt="bird">Today was a long day. I went home from school and slept instantly.</p>
 </div>
 
 <div class="entry">
 <div class="date">March 8</div>
-<p>I saw a dove outside my window.</p>
+<p><img class="icon" src="https://i.imgur.com/6b4pZcL.png" alt="bird">I saw a dove outside my window.</p>
 </div>
+
+<div class="entry">
+<div class="date">March 7</div>
+<p>I got 25 cents from the road lol.</p>
+</div>
+
+<p>Check out my <a href="#">guestbook</a> and leave a message!</p>
 
 </body>
 </html>
